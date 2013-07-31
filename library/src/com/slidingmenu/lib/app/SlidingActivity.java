@@ -1,15 +1,14 @@
 package com.slidingmenu.lib.app;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
 
-import com.actionbarsherlock.app.SherlockActivity;
 import com.slidingmenu.lib.SlidingMenu;
 
-public class SlidingActivity extends SherlockActivity implements SlidingActivityBase {
+public class SlidingActivity extends ActionBarActivity implements SlidingActivityBase {
 
 	private SlidingActivityHelper mHelper;
 

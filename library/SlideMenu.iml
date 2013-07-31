@@ -19,9 +19,10 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="API17+G" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="API18+G" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="ABS.io" exported="" />
+    <orderEntry type="module" module-name="appcompat" />
+    <orderEntry type="library" name="main.android-support-v7.appcompat" level="project" />
   </component>
 </module>
 

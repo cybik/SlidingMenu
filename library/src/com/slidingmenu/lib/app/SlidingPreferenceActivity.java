@@ -1,6 +1,5 @@
 package com.slidingmenu.lib.app;
 
-import com.actionbarsherlock.app.SherlockPreferenceActivity;
 import com.slidingmenu.lib.SlidingMenu;
 
 import android.os.Bundle;
@@ -9,11 +8,11 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
 
-public class SlidingPreferenceActivity extends SherlockPreferenceActivity implements SlidingActivityBase {
+public class SlidingPreferenceActivity extends PreferenceActivity implements SlidingActivityBase {
 
 	private SlidingActivityHelper mHelper;
 
-	/* (non-Javadoc)
+    /* (non-Javadoc)
 	 * @see android.app.Activity#onCreate(android.os.Bundle)
 	 */
 	@Override
@@ -149,4 +148,5 @@ public class SlidingPreferenceActivity extends SherlockPreferenceActivity implem
 		if (b) return b;
 		return super.onKeyUp(keyCode, event);
 	}
+
 }
